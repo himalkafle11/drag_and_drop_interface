@@ -6,7 +6,7 @@
 }
 .appHeader {
   background-color: rgba(128, 128, 128, 0.416);
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
   font-size: calc(10px + 2vmin);
   color: black;

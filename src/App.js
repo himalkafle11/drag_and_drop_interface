@@ -1,4 +1,5 @@
 import "./App.css";
+import DragAndDrop from "./components/dragAndDrop";
 
 const data = [
   { title: "Column A", childs: ["A1", "A2", "A3"] },
@@ -9,7 +10,8 @@ const data = [
 function App() {
   return (
     <div className="App">
-      <header className="appHeader">
+      <DragAndDrop data={data} />
+      {/* <header className="appHeader">
         <div className="dragDrop">
           {data.map((firstSet) => {
             return (
@@ -28,7 +30,7 @@ function App() {
             );
           })}
         </div>
-      </header>
+      </header> */}
     </div>
   );
 }
