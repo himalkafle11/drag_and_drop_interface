@@ -50,3 +50,7 @@
   text-align: center;
   margin-bottom: 0.5rem;
 }
+
+.current {
+  background-color: rgba(128, 128, 128, 0.416);
+}
